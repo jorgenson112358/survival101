@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="GameInv" load_steps=15 format=3 uid="uid://dps2tqo4cv7hr"]
+
+[ext_resource type="Script" path="res://Inventory/GameInvScript.gd" id="1_rep5e"]
+[ext_resource type="Script" path="res://Inv_slot.gd" id="2_qqyvb"]
+
+[sub_resource type="Resource" id="Resource_g5hjv"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_cdxqo"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_gas0w"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_0tnif"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_e1g2c"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_3us8q"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_bmi3t"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_26u70"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_m26ei"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_pbcey"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_govwv"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_rq2d0"]
+script = ExtResource("2_qqyvb")
+amount = 0
+
+[resource]
+script = ExtResource("1_rep5e")
+slots = Array[ExtResource("2_qqyvb")]([SubResource("Resource_g5hjv"), SubResource("Resource_cdxqo"), SubResource("Resource_gas0w"), SubResource("Resource_0tnif"), SubResource("Resource_e1g2c"), SubResource("Resource_3us8q"), SubResource("Resource_bmi3t"), SubResource("Resource_26u70"), SubResource("Resource_m26ei"), SubResource("Resource_pbcey"), SubResource("Resource_govwv"), SubResource("Resource_rq2d0")])
